@@ -1,5 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+<<<<<<< HEAD
+=======
+one:
+  name: MyString
+  email: MyString
+
+two:
+  name: MyString
+  email: MyString
+
+>>>>>>> 3fb5273a53ba4508d56ddb1e62779eccb6142b65
 michael:
   name: Michael Example
   email: michael@example.com
