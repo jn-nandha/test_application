@@ -10,10 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> cf71c2fe04edad7cfc82b696d2fec528443e7e14
 ActiveRecord::Schema.define(version: 2018_01_10_111718) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
@@ -43,10 +39,8 @@ ActiveRecord::Schema.define(version: 2018_01_10_111718) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "password_digest"
-<<<<<<< HEAD
-    t.index ["email"], name: "index_users_on_email", unique: true
-=======
->>>>>>> cf71c2fe04edad7cfc82b696d2fec528443e7e14
+   t.index ["email"], name: "index_users_on_email", unique: true
+
   end
 
 end
