@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
   resources :users
+  resources :account_activations, only: [:edit]
   get 'sessions/new'
   get 'users/new'
   get  '/help',    to: 'static_pages#help'
